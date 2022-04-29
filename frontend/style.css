@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+
+.inpulse {
+    padding-left: 6px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    }
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.intro {
+    background-image: url("https://m.media-amazon.com/images/I/71E-rgzmnIL._AC_SX425_.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.introduction {
+    position: relative;
+    display: inline-block;
+    left: 17%;
+    top: 14%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 63px;
+}
+
+.getintouch {
+    font-size: 15px;
+    border: 3px solid white;
+    padding: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
+section.activities-container {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    padding: 5%;
+    background-color:#2b2273;
+}
+
+h3 {
+    margin-block-start: 0;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.activity {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.activity::before{
+    content: "01";
+    position: absolute;
+    top: 21px;
+    left: -40px;
+
+}
+
+.activity::after{
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: -21px;
+    width: 16px;
+    height: 3px;
+    background-color: white;
+}
+
+.activity li {
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+.years25-container {
+    padding: 34px 130px;
+}
+
+.years25 {
+    display: inline-block;
+    width:50%;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif, solid;
+}
+
+.orange-text {
+    color: orangered;
+    font-weight: 900;
+}
+
+#years25 {
+    margin-right: -5px;
+}
+
+
+.readmore {
+    font-size: 10px;
+    border: 3px solid orangered;
+    padding: 16px;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+h4 {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+    vertical-align: top;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.partnerlogo {
+    display: block;
+    width: 100%;
+}
+
